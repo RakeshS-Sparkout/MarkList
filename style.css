@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, blue, purple);
+    padding: 10px;
+}
+
+.mark-list {
+    width: 100%;
+    max-width: 540px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#search {
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+table, td, th {
+    text-align: center;
+    border: 1px solid gray;
+}
+
+#sort {
+    text-align: end;
+}
